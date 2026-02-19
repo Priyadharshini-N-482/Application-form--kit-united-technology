@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> FORM </title>
+<style>
+img
+{
+border-radius:10px;
+margin-left:auto;
+margin-right: auto;
+display:block;
+}
+button{
+width:100%;
+box-sizing: border-box;
+background-color:red;
+padding:15px;
+border-radius:10px;
+margin:3px 0;
+color:white;
+}
+button:hover {
+opacity:0.7;
+}
+input[type=text], input[type=email], input[type=number]
+{
+width:100%;
+border-color:red;
+padding:15px 20px;
+margin:13px 0;
+color: white;
+box-sizing: border-box;
+border-radius:10px;
+}
+</style>
+</head>
+<body style="background-color: pink;">
+<img src="C:\Users\ELCOT\Pictures\Saved Pictures\KIT.png" alt="BEC" >
+<h1 style="text-align:center; color:navy;"> Kangeyam Institute of Technology</h1>
+<h2 style="text-align:center; "> Application form </h2>
+<form style="border:5px solid #f1f1f1;">
+<div style="padding:25px; background-color:pink;">
+<lable for="fname">First Name: </lable>
+<input type="text" id="fname" name="fname" placeholder="First Name"><br>
+<br>
+<lable for="Iname">Last Name:</lable>
+<input type="text" id="text" name="Iname" placeholder="Last Name"><br>
+<br>
+<lable for="dob">DOB:</lable>
+<input type="date" id="dob" name="dob" ><br>
+<br>
+<h4>Gender</h4><br>
+<input type="radio" id="g" name="g" value="gender">
+<lable for="g">Male</lable>
+<input type="radio" id="g1" name="g" value="gender">
+<lable for="g1">Female</lable><br>
+<h4>Department</h4>
+<input type="radio" id="dep" name="d1" value="Department">
+<lable for="dep">CSE</Table>
+<input type="radio" id="dep1" name="d1" value="Department">
+<lable for="dep1">ECE</lable>
+<input type="radio" id="dep2" name="d1" value="Department">
+<lable for="dep2">EEE</lable>
+<input type="radio" id=dep3" name="d1" value="Department">
+<lable for=dep3">AI&DS</lable>
+<input type="radio" id="dep4" name="d1" value="Department">
+<lable for="dep4">MECH</lable><br> <br>
+<lable for="yop"> Year of Passing </Table>
+<select id="yop" name="Year of Passing"> 
+<option value="2021-2025">2021-2025</option>
+<option value="2022-2026">2022-2026</option>
+<option value="2023-2027">2023-2027</option>
+<option value="2024-2028">2024-2028</option>
+</select><br>
+<br>
+<h4>Select your skills</h1><br> 
+<input type="checkbox" id="s1" name="s1" value="drawing">
+<lable for="s1">Drawing</lable>
+<input type="checkbox" id="s2" name="s2" value="Reading Books">
+<lable for="s2">Reading Books</lable>
+<input type="checkbox" id="s3" name="s3" value="painting"> 
+<lable for="s3">Painting</lable><br>
+<br>
+<lable for="email"> Email: </lable>
+<input type="email" id="email" name="email" placeholder="abc123@gmail.com" <br>
+<br>
+<button type="button" onclick="alert('are you sure')">verify</button>
+<lable for="pn">Phone-Number: </lable>
+<input type="number" id="pn" name="Phone-Number:" max="10" placeholder="0123456789" pattern="[0-9]{10}">
+<button type="button" onclick="alert('are you sure')">verify</button>
+<br>
+<h4>Feedback</h4><br>
+<textarea feedback="Feedback" row="20" cols="30">Give your feedback....</textarea>
+<button type="submit">Submit</button><br>
+<br>
+<button type="reset">Reset</button><br>
+<div>
+</form>
+</body>
+</html>
